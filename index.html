@@ -1,0 +1,457 @@
+<!DOCTYPE html>
+<html lang="pt-PT">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="The Vision Corp - Ecossistema criativo e tecnológico transformando o futuro digital em Angola">
+    <meta name="theme-color" content="#1a1a1a">
+    <title>The Vision Corp - Tecnologia & Inovação</title>
+    
+    <!-- PWA Manifest -->
+    <link rel="manifest" href="manifest.json">
+    <link rel="icon" type="image/png" href="assets/favicon.png">
+    <link rel="apple-touch-icon" href="assets/apple-touch-icon.png">
+    
+    <!-- Styles -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800&family=Poppins:wght@600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <div class="logo">
+                <span class="logo-icon">◆</span>
+                <span class="logo-text">The Vision Corp</span>
+            </div>
+            
+            <div class="nav-menu" id="navMenu">
+                <a href="#home" class="nav-link active">Início</a>
+                <a href="#about" class="nav-link">Quem Somos</a>
+                <a href="#pillars" class="nav-link">Pilares</a>
+                <a href="#projects" class="nav-link">Projetos</a>
+                <a href="#roadmap" class="nav-link">Roadmap</a>
+                <a href="#contact" class="nav-link">Contacto</a>
+            </div>
+            
+            <div class="hamburger" id="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="hero-bg">
+            <div class="gradient-sphere sphere-1"></div>
+            <div class="gradient-sphere sphere-2"></div>
+            <div class="gradient-sphere sphere-3"></div>
+        </div>
+        
+        <div class="hero-content">
+            <h1 class="hero-title">
+                <span class="word">Transformar</span>
+                <span class="word">a Tecnologia</span>
+                <span class="word">em Realidade</span>
+            </h1>
+            <p class="hero-subtitle">Ecossistema criativo e tecnológico fundado na convicção de que a inovação constrói o futuro</p>
+            
+            <div class="hero-actions">
+                <button class="btn btn-primary" onclick="document.getElementById('about').scrollIntoView({behavior: 'smooth'})">Explorar Visão</button>
+                <button class="btn btn-secondary" onclick="document.getElementById('projects').scrollIntoView({behavior: 'smooth'})">Ver Projetos</button>
+            </div>
+            
+            <div class="hero-stats">
+                <div class="stat">
+                    <span class="stat-number">3+</span>
+                    <span class="stat-label">Pilares de Atuação</span>
+                </div>
+                <div class="stat">
+                    <span class="stat-number">5+</span>
+                    <span class="stat-label">Projetos Ativos</span>
+                </div>
+                <div class="stat">
+                    <span class="stat-number">∞</span>
+                    <span class="stat-label">Possibilidades</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about" id="about">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Quem Somos</h2>
+                <p class="section-subtitle">Fundada por Deive Valentim - Uma visão clara para o futuro digital</p>
+            </div>
+            
+            <div class="about-grid">
+                <div class="about-card">
+                    <div class="card-icon">🚀</div>
+                    <h3>Missão</h3>
+                    <p>Projetar soluções que desafiam o comum e constroem pontes para o futuro digital em Angola e além.</p>
+                </div>
+                
+                <div class="about-card">
+                    <div class="card-icon">👁️</div>
+                    <h3>Visão</h3>
+                    <p>Ser um ecossistema referência em desenvolvimento digital, inovação tecnológica e experiência de utilizador.</p>
+                </div>
+                
+                <div class="about-card">
+                    <div class="card-icon">⚡</div>
+                    <h3>Valores</h3>
+                    <p>Disciplina técnica, criatividade contínua, acessibilidade e transformação digital genuína.</p>
+                </div>
+            </div>
+            
+            <div class="about-narrative">
+                <h3>A Nossa História</h3>
+                <p>The Vision Corp nasceu da fusão entre engenharia estruturada e inovação digital. Acreditamos que a tecnologia deve ser prática, acessível e transformadora. Cada projeto é tratado com atenção meticulosa aos detalhes, porque sabemos que o rigor técnico unido à criatividade constrói legados duradouros.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Pillars Section -->
+    <section class="pillars" id="pillars">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Pilares de Atuação</h2>
+                <p class="section-subtitle">Três frentes principais que moldam nossa atuação</p>
+            </div>
+            
+            <div class="pillars-grid">
+                <div class="pillar-card">
+                    <div class="pillar-header">
+                        <div class="pillar-number">01</div>
+                        <h3>Engenharia & Estrutura</h3>
+                    </div>
+                    <p>Desenvolvimento lógico e estruturado, aplicando rigor técnico e resolução de problemas complexos inspirados na excelência industrial.</p>
+                    <div class="tech-tags">
+                        <span class="tag">Python</span>
+                        <span class="tag">Algoritmos</span>
+                        <span class="tag">Arquitetura</span>
+                    </div>
+                </div>
+                
+                <div class="pillar-card">
+                    <div class="pillar-header">
+                        <div class="pillar-number">02</div>
+                        <h3>Desenvolvimento Digital</h3>
+                    </div>
+                    <p>Criação de aplicações web, ferramentas interativas e interfaces utilizando tecnologias modernas e soluções escaláveis.</p>
+                    <div class="tech-tags">
+                        <span class="tag">HTML/CSS</span>
+                        <span class="tag">JavaScript</span>
+                        <span class="tag">Web Apps</span>
+                    </div>
+                </div>
+                
+                <div class="pillar-card">
+                    <div class="pillar-header">
+                        <div class="pillar-number">03</div>
+                        <h3>Design & Experiência</h3>
+                    </div>
+                    <p>Foco na estética visual funcional, garantindo que cada projeto funcione com perfeição e proporcione experiência imersiva.</p>
+                    <div class="tech-tags">
+                        <span class="tag">UI/UX</span>
+                        <span class="tag">Design Thinking</span>
+                        <span class="tag">Acessibilidade</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section class="projects" id="projects">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Ecossistema de Projetos</h2>
+                <p class="section-subtitle">Iniciativas que moldam nosso portfólio</p>
+            </div>
+            
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-image" style="background: linear-gradient(135deg, #FFD700, #FFA500);">
+                        <span class="project-icon">📚</span>
+                    </div>
+                    <div class="project-content">
+                        <h3>Kifula</h3>
+                        <p>Plataforma educacional inteligente com ferramentas de estudo, cálculos escolares e suporte curricular para estudantes angolanos.</p>
+                        <div class="project-tags">
+                            <span>Educação</span>
+                            <span>Mobile</span>
+                            <span>AI</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="project-card">
+                    <div class="project-image" style="background: linear-gradient(135deg, #FF6B35, #F7931E);">
+                        <span class="project-icon">🎨</span>
+                    </div>
+                    <div class="project-content">
+                        <h3>The Vision Studio</h3>
+                        <p>Núcleo criativo e laboratório de desenvolvimento focado em identidades visuais, arquitetura web e códigos eficientes.</p>
+                        <div class="project-tags">
+                            <span>Design</span>
+                            <span>Branding</span>
+                            <span>Development</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="project-card">
+                    <div class="project-image" style="background: linear-gradient(135deg, #2E7D32, #43A047);">
+                        <span class="project-icon">⚙️</span>
+                    </div>
+                    <div class="project-content">
+                        <h3>Inovações em Código</h3>
+                        <p>Repositórios abertos e scripts focados em automação de tarefas, otimização de produtividade e ferramentas de utilidade pública.</p>
+                        <div class="project-tags">
+                            <span>Open Source</span>
+                            <span>Automação</span>
+                            <span>Tools</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="project-card">
+                    <div class="project-image" style="background: linear-gradient(135deg, #1565C0, #42A5F5);">
+                        <span class="project-icon">☀️</span>
+                    </div>
+                    <div class="project-content">
+                        <h3>Tech4Angola</h3>
+                        <p>Iniciativa de transferência de conhecimento, workshops e capacitação em tecnologias digitais para comunidades angolanas.</p>
+                        <div class="project-tags">
+                            <span>Educação</span>
+                            <span>Comunidade</span>
+                            <span>Impacto Social</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="project-card">
+                    <div class="project-image" style="background: linear-gradient(135deg, #7B1FA2, #BA68C8);">
+                        <span class="project-icon">💡</span>
+                    </div>
+                    <div class="project-content">
+                        <h3>Innovation Hub</h3>
+                        <p>Espaço colaborativo para ideias, prototipagem rápida e desenvolvimento de soluções inovadoras com impacto local.</p>
+                        <div class="project-tags">
+                            <span>Startups</span>
+                            <span>Inovação</span>
+                            <span>Colaboração</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="project-card">
+                    <div class="project-image" style="background: linear-gradient(135deg, #D32F2F, #FF5252);">
+                        <span class="project-icon">🔧</span>
+                    </div>
+                    <div class="project-content">
+                        <h3>DevTools Suite</h3>
+                        <p>Conjunto de ferramentas de desenvolvimento otimizadas para produtividade, debugging e integração contínua em projetos.</p>
+                        <div class="project-tags">
+                            <span>DevOps</span>
+                            <span>CLI Tools</span>
+                            <span>Productividade</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Roadmap Section -->
+    <section class="roadmap" id="roadmap">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Roadmap & Visão de Futuro</h2>
+                <p class="section-subtitle">Plano estratégico para transformação digital</p>
+            </div>
+            
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-marker">
+                        <span class="marker-circle">1</span>
+                    </div>
+                    <div class="timeline-content">
+                        <h3>Fase 1 — Fundação & Domínio Técnico</h3>
+                        <p>2024 - 2025</p>
+                        <ul>
+                            <li>Consolidação de bases sólidas em programação</li>
+                            <li>Estruturação completa do portfólio</li>
+                            <li>Lançamento dos projetos principais</li>
+                            <li>Estabelecimento de comunidade</li>
+                        </ul>
+                    </div>
+                </div>
+                
+                <div class="timeline-item">
+                    <div class="timeline-marker">
+                        <span class="marker-circle">2</span>
+                    </div>
+                    <div class="timeline-content">
+                        <h3>Fase 2 — Expansão & Utilidades</h3>
+                        <p>2025 - 2026</p>
+                        <ul>
+                            <li>Ampliação do alcance do Kifula</li>
+                            <li>Lançamento de ferramentas web inovadoras</li>
+                            <li>Parcerias com instituições educacionais</li>
+                            <li>Presença em múltiplas plataformas</li>
+                        </ul>
+                    </div>
+                </div>
+                
+                <div class="timeline-item">
+                    <div class="timeline-marker">
+                        <span class="marker-circle">3</span>
+                    </div>
+                    <div class="timeline-content">
+                        <h3>Fase 3 — Escala & Inovação Tecnológica</h3>
+                        <p>2026 - 2027</p>
+                        <ul>
+                            <li>Desenvolvimento de sistemas de maior complexidade</li>
+                            <li>Exploração de IA e Machine Learning</li>
+                            <li>Integração de novas tecnologias emergentes</li>
+                            <li>Estabelecimento como referência regional</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Values Section -->
+    <section class="values">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Compromisso com a Qualidade</h2>
+                <p class="section-subtitle">Princípios que guiam cada decisão</p>
+            </div>
+            
+            <div class="values-grid">
+                <div class="value-item">
+                    <h4>Excelência Técnica</h4>
+                    <p>Cada linha de código é tratada com atenção meticulosa aos detalhes.</p>
+                </div>
+                <div class="value-item">
+                    <h4>Inovação Contínua</h4>
+                    <p>Buscamos constantemente novas formas de resolver problemas.</p>
+                </div>
+                <div class="value-item">
+                    <h4>Acessibilidade</h4>
+                    <p>Tecnologia que serve a todos, sem barreiras.</p>
+                </div>
+                <div class="value-item">
+                    <h4>Impacto Social</h4>
+                    <p>Criamos soluções que melhoram vidas e comunidades.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta">
+        <div class="container">
+            <div class="cta-content">
+                <h2>Vamos Construir o Futuro Juntos?</h2>
+                <p>Seja para uma parceria, troca de ideias ou desenvolvimento de um projeto transformador</p>
+                <button class="btn btn-primary btn-lg" onclick="document.getElementById('contact').scrollIntoView({behavior: 'smooth'})">Entrar em Contacto</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact" id="contact">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Contacto</h2>
+                <p class="section-subtitle">Aberto para colaborações e oportunidades</p>
+            </div>
+            
+            <div class="contact-grid">
+                <div class="contact-card">
+                    <h3>Email</h3>
+                    <p><a href="mailto:hello@thevisioncorp.ao">hello@thevisioncorp.ao</a></p>
+                </div>
+                
+                <div class="contact-card">
+                    <h3>GitHub</h3>
+                    <p><a href="https://github.com/the-vision-corp" target="_blank">github.com/the-vision-corp</a></p>
+                </div>
+                
+                <div class="contact-card">
+                    <h3>Redes Sociais</h3>
+                    <p>
+                        <a href="#" target="_blank">LinkedIn</a> | 
+                        <a href="#" target="_blank">Twitter</a> | 
+                        <a href="#" target="_blank">Instagram</a>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h4>The Vision Corp</h4>
+                    <p>Transformando a tecnologia em realidade, construindo o futuro digital de Angola.</p>
+                </div>
+                
+                <div class="footer-section">
+                    <h4>Navegação</h4>
+                    <ul>
+                        <li><a href="#home">Início</a></li>
+                        <li><a href="#about">Quem Somos</a></li>
+                        <li><a href="#projects">Projetos</a></li>
+                        <li><a href="#roadmap">Roadmap</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-section">
+                    <h4>Comunidade</h4>
+                    <ul>
+                        <li><a href="#">Blog</a></li>
+                        <li><a href="#">Documentação</a></li>
+                        <li><a href="#">Contribuir</a></li>
+                        <li><a href="#">Feedback</a></li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2024 The Vision Corp. Criado por Deive Valentim. Transformando ideias em código.</p>
+                <div class="footer-badges">
+                    <span class="badge">🌍 Global</span>
+                    <span class="badge">⚡ PWA</span>
+                    <span class="badge">🔒 Seguro</span>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="js/app.js"></script>
+    <script>
+        // Register Service Worker for offline support
+        if ('serviceWorker' in navigator) {
+            navigator.serviceWorker.register('service-worker.js')
+                .then(reg => console.log('✓ Service Worker registrado'))
+                .catch(err => console.log('✗ Service Worker erro:', err));
+        }
+    </script>
+</body>
+</html>
