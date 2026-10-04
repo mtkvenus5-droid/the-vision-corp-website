@@ -1,0 +1,18 @@
+{
+  "name": "The Vision Corp",
+  "short_name": "VisionCorp",
+  "description": "Ecossistema criativo e tecnológico da The Vision Corp.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#07130f",
+  "theme_color": "#07130f",
+  "orientation": "portrait",
+  "icons": [
+    {
+      "src": "assets/favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}

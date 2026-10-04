@@ -1,0 +1,57 @@
+@media (max-width: 760px) {
+  .brand-text {
+    font-size: 0.92rem;
+  }
+
+  .hero-copy h1 {
+    letter-spacing: -0.05em;
+  }
+
+  .cta-row {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .btn {
+    width: 100%;
+  }
+
+  .timeline-item {
+    grid-template-columns: 56px 1fr;
+  }
+
+  .timeline-no {
+    width: 52px;
+    height: 52px;
+    font-size: 0.85rem;
+  }
+}
+
+@media (max-width: 520px) {
+  .container {
+    width: min(var(--max-width), calc(100% - 24px));
+  }
+
+  .hero-copy p {
+    font-size: 0.98rem;
+  }
+
+  .quick-stats li {
+    min-width: 0;
+    flex: 1 1 100%;
+  }
+
+  .project-cover {
+    min-height: 150px;
+  }
+
+  .story-box,
+  .value-box,
+  .info-card,
+  .pillar-card,
+  .project-body,
+  .timeline-item > div {
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+}

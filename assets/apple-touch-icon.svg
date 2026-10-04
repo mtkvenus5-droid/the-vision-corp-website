@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 180 180" role="img" aria-label="The Vision Corp apple touch icon">
+  <defs>
+    <linearGradient id="g2" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0%" stop-color="#4cc38a"/>
+      <stop offset="100%" stop-color="#d7b35a"/>
+    </linearGradient>
+  </defs>
+  <rect width="180" height="180" rx="42" fill="#07130f"/>
+  <path d="M58 127 90 42l32 85h-20l-12-31-12 31H58Zm32-45 9 22h-18l9-22Z" fill="url(#g2)"/>
+</svg>
